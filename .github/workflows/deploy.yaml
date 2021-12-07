@@ -1,0 +1,32 @@
+---
+# This workflow will deploys the static-assets app
+# to a target environment
+
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - '*'
+    paths-ignore:
+      - '**.md'  # All markdown files in the repository
+  release:
+    types: [released]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: 18F/identity-idva-cf-setup@v2
+        id: cf-setup
+        with:
+          cf-username: ${{ secrets.CF_USERNAME }}
+          cf-password: ${{ secrets.CF_PASSWORD }}
+          cf-org: ${{ secrets.CF_ORG }}
+
+      - name: Deploy application
+        run: cf push --var ENVIRONMENT_NAME=$ {{ steps.cf-setup.outputs.target-environment }}
