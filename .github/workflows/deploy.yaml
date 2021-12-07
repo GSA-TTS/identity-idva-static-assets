@@ -17,6 +17,7 @@ on:
 
 jobs:
   deploy:
+    if: github.repository_owner == '18F'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

@@ -4,5 +4,5 @@ applications:
     memory: 64MB
     instances: 1
     routes:
-      - route: identity-idva-static-assets-dev.app.cloud.gov
+      - route: identity-idva-static-assets-((ENVIRONMENT_NAME)).app.cloud.gov
     stack: cflinuxfs3
