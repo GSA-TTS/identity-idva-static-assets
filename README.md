@@ -1,5 +1,5 @@
 # IDVA Static Assets
-This repository is the home of static assets required by IDVA front end applications. All static files must be saved in teh `public/` folder to be published.
+This repository is the home of static assets required by IDVA front end applications. All static files must be saved in the `public/` folder to be published.
 
 
 ## Public domain
