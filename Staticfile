@@ -1,1 +1,6 @@
 root: public
+force_https: true
+host_dot_files: false
+http_strict_transport_security: true
+http_strict_transport_security_include_subdomains: true
+http_strict_transport_security_preload: true
