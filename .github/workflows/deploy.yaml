@@ -32,7 +32,7 @@ jobs:
       - name: Format JavaScript
         env: 
           ENVIRONMENT_NAME: ${{ steps.cf-setup.outputs.target-environment }}
-        run: envsubst < template/lang-template.js > public/js/locale/lang.js
+        run: envsubst '$ENVIRONMENT_NAME' < template/lang-template.js > public/js/locale/lang.js
 
       - name: Deploy application
         run: cf push --var ENVIRONMENT_NAME=${{ steps.cf-setup.outputs.target-environment }}
