@@ -28,9 +28,10 @@ jobs:
           cf-username: ${{ secrets.CF_USERNAME }}
           cf-password: ${{ secrets.CF_PASSWORD }}
           cf-org: ${{ secrets.CF_ORG }}
-  
+          space-suffix: "-closed"
+
       - name: Format JavaScript
-        env: 
+        env:
           ENVIRONMENT_NAME: ${{ steps.cf-setup.outputs.target-environment }}
         run: envsubst '$ENVIRONMENT_NAME' < template/lang-template.js > public/js/locale/lang.js
 
