@@ -12,13 +12,16 @@
                 "change_address_label": "Changement d’adresse",
                 "change_ssn": "Changement",
                 "change_ssn_label": "Changement de numéro de sécurité sociale",
+                "change_phone": "Changement",
+                "change_phone_label": "",
                 "continue": "Continuer",
                 "start_over": "Recommencer",
                 "take_or_upload_picture": "<lg-take-photo>Prendre une photo</Qlg-take-photo> ou <lg-upload>Télécharger une photo</lg-upload>",
                 "take_picture": "Prendre une photo",
                 "take_picture_retry": "Reprendre la photo",
                 "upload_picture": "Télécharger une photo",
-                "use_phone": "Utilisez votre téléphone"
+                "use_phone": "Utilisez votre téléphone",
+                "submit": ""
             },
             "errors": {
                 "alerts": {
@@ -37,7 +40,8 @@
                     "selfie_failure": "Nous n’avons pas pu associer votre photo à votre pièce d’identité. Essayez de prendre une nouvelle photo de vous-même ou du recto de votre carte d’identité.",
                     "sex_check": "Nous n’avons pas pu lire le sexe sur votre pièce d’identité. Essayez de prendre de nouvelles photos.",
                     "visible_color_check": "Nous n’avons pas pu vérifier votre pièce d’identité. Elle a peut-être bougé lorsque vous avez pris la photo, ou la photo est trop sombre. Essayez de prendre de nouvelles photos avec un éclairage plus fort.",
-                    "visible_photo_check": "Nous n’avons pas pu vérifier la photo sur votre pièce d’identité. Essayez de prendre de nouvelles photos."
+                    "visible_photo_check": "Nous n’avons pas pu vérifier la photo sur votre pièce d’identité. Essayez de prendre de nouvelles photos.",
+                    "photo_error_generic": ""
                 },
                 "camera": {
                     "blocked": "Votre appareil photo est bloqué",
@@ -99,7 +103,8 @@
                 "selected_file": "Fichier sélectionné",
                 "ssn": "Numéro de sécurité sociale",
                 "state": "Etat",
-                "zip_code": "Code postal"
+                "zip_code": "Code postal",
+                "phone": ""
             },
             "headings": {
                 "address": "Mettre à jour votre adresse postale",
@@ -115,10 +120,11 @@
                 "front": "Recto",
                 "interstitial": "Nous traitons vos images",
                 "lets_go": "Comment fonctionne la vérification de votre identité",
+                "docv_livenesscheck": "",
                 "photo": "Photo",
                 "review_issues": "Vérifiez vos images et essayez à nouveau",
                 "secure_account": "Sécuriser votre compte",
-                "selfie": "Prenez une photo de vous-même",
+                "selfie": "",
                 "ssn": "Saisissez votre numéro de sécurité sociale",
                 "ssn_update": "Mettre à jour votre numéro de Sécurité Sociale",
                 "take_picture": "Prendre une photo avec un téléphone",
@@ -129,7 +135,11 @@
                 "upload_liveness_enabled": "Comment souhaitez-vous vérifier votre identité?",
                 "verify": "Vérifier votre information",
                 "verify_identity": "Vérifier votre identité",
-                "welcome": "Commencez à vérifier votre identité"
+                "welcome": "Commencez à vérifier votre identité",
+                "pii": "",
+                "otp": "",
+                "otp_security": "",
+                "phone_update": ""
             },
             "info": {
                 "camera_required": "Votre téléphone portable doit avoir une caméra et un navigateur Web.",
@@ -145,11 +155,13 @@
                 "interstitial_thanks": "Merci de votre patience!",
                 "keep_window_open": "Ne fermez pas cette fenêtre.",
                 "lets_go": "La vérification de l’identité se fait en deux temps",
+                "lets_go_3": "",
                 "link_sent": "Veuillez vérifier votre téléphone et suivre les instructions pour prendre une photo de votre identité émise par l’État.",
                 "link_sent_complete_js": "L’étape suivante se chargera automatiquement une fois que vous aurez confirmé votre identifiant à l’aide de votre téléphone.",
                 "link_sent_complete_nojs": "Quand vous aurez fini, cliquez sur « Continuer » ici pour terminer la vérification de votre identité.",
                 "no_sp_name": "L’agence à laquelle vous essayez d’accéder",
                 "privacy_html": "%{app_name} est un site gouvernemental sécurisé qui respecte les normes les plus strictes en matière de protection des données. Nous n’utilisons vos données uniquement pour vérifier votre identité. %{link} sur nos mesures de confidentialité et de sécurité.",
+                "privacy_html_generic": "",
                 "secure_account": "Nous chiffrerons votre compte avec votre mot de passe. Le chiffrage signifie que vos données sont protégées et que vous êtes le/la seul(e) à pouvoir accéder à vos informations ou les modifier.",
                 "ssn": "Nous avons besoin de votre numéro de sécurité sociale pour valider votre nom, date de naissance et adresse. Votre numéro de sécurité sociale est crypté. Avec votre accord, nous partageons ce informations auprès de l’agence gouvernementale à laquelle vous essayez d’accéder pour vérifier votre identité.",
                 "tag": "Recommandation",
@@ -163,7 +175,16 @@
                 "upload_no_image_storage": "Nous ne stockons pas les images que vous téléchargez.",
                 "verify_identity": "Nous vous demanderons vos informations personnelles afin de vérifier votre identité par rapport aux registres publics.",
                 "verifying": "Vérification…",
-                "welcome_html": "%{sp_name} doit s’assurer que vous êtes bien vous, et non quelqu’un qui se fait passer pour vous."
+                "welcome_html": "%{sp_name} doit s’assurer que vous êtes bien vous, et non quelqu’un qui se fait passer pour vous.",
+                "welcome_html_generic": "",
+                "pii": "",
+                "ssn_eq": "",
+                "docv_livenesscheck_text1": "",
+                "docv_livenesscheck_text2": "",
+                "docv_livenesscheck_text3": "",
+                "consent_pii": "",
+                "otp": "",
+                "consent": ""
             },
             "instructions": {
                 "bullet1": "Votre carte d’identité émise par l’État",
@@ -184,7 +205,8 @@
                 "test_ssn": "Dans l’environnement de test seuls les SSN commençant par “900-” ou “900-” sont considérés comme valides. N’entrez pas de vrais PII dans ce champ.",
                 "text1a": "tel qu’un téléphone ou un ordinateur",
                 "text2": "Vous n’aurez pas besoin de la carte avec vous.",
-                "text3": "Il n’est pas nécessaire que vous soyez le titulaire principal du compte de votre forfait téléphonique. Si votre numéro de téléphone ne fonctionne pas, nous pouvons vous envoyer un code de vérification par courrier.",
+                "text3": "Il n’est pas nécessaire que vous soyez le titulaire principal du compte de votre forfait téléphonique.",
+                "text4": "Si votre numéro de téléphone ne fonctionne pas, nous pouvons vous envoyer un code de vérification par courrier.",
                 "welcome": "Pour vérifier votre identité, vous aurez besoin de:"
             },
             "tips": {
@@ -215,7 +237,8 @@
                 "review_issues_selfie_text1": "Êtes-vous face à la caméra?",
                 "review_issues_selfie_text2": "Est-ce que vous avez toute la tête et le visage sur la photo?",
                 "review_issues_selfie_text3": "La photo est-elle sur un fond uni?",
-                "review_issues_selfie_text4": "Votre visage est-il entièrement visible, sans être couvert par un chapeau ou des lunettes?"
+                "review_issues_selfie_text4": "Votre visage est-il entièrement visible, sans être couvert par un chapeau ou des lunettes?",
+                "document_capture_id_worn_html": ""
             }
         },
         "i18n": {
@@ -261,7 +284,8 @@
             "footer_lite": {
                 "gsa": "Administration des services généraux des États-Unis"
             },
-            "skip_link": "Passer au contenu principal"
+            "skip_link": "Passer au contenu principal",
+            "provided_by": ""
         },
         "links": {
             "account": {
@@ -293,6 +317,106 @@
                 "get_another_code": "Obtenir un autre code"
             },
             "what_is_totp": "Qu’est-ce qu’une application d’authentification?"
+        },
+        "titles": {
+            "doc_auth": {
+                "pii": ""
+            }
+        },
+        "idv": {
+            "phone": {
+                "alert": "",
+                "alert_1": "",
+                "alert_2": "",
+                "alert_3": ""
+            },
+            "form": {
+                "address1": "Adresse",
+                "address2": "Adresse (optional)",
+                "city": "Ville une lettre contenant un code.′",
+                "password": "Mot de passe",
+                "ssn_label_html": "Numéro de sécurité sociale",
+                "state": "État",
+                "zipcode": "Code ZIP",
+                "select": ""
+            },
+            "titles": {
+                "activated": "Votre identité a déjà été vérifiée",
+                "come_back_later": "Revenez vite",
+                "mail": {
+                    "resend": "Vous voulez une autre lettre?",
+                    "verify": "Vous voulez une lettre?"
+                },
+                "otp_delivery_method": "Comment souhaitez-vous recevoir le code ?",
+                "personal_key": "Clé personnelle",
+                "review": "Réviser et soumettre",
+                "session": {
+                    "phone": "Entrez un numéro de téléphone pour vous aider à vérifier votre identité",
+                    "review": "Entrez à nouveau votre mot de passe %{app_name} pour crypter vos données"
+                }
+            },
+            "messages": {
+                "activated_html": "Votre identité a été vérifiée. Si vous souhaitez modifier votre information vérifiée, veuillez %{link}.",
+                "activated_link": "communiquer avec nous",
+                "clear_and_start_over": "Supprimer mes données et recommencer",
+                "come_back_later": "Une fois que votre lettre vous sera parvenue, veuillez vous connecter à %{app_name}, puis saisissez votre code de confirmation lorsque vous y serez invité.",
+                "come_back_later_no_sp_html": "Vous pouvez revenir à votre <strong>compte %{app_name}</strong> pour le moment.",
+                "come_back_later_sp_html": "Vous pouvez revenir à <strong>%{sp}</strong> pour le moment.",
+                "confirm": "Vous avez crypté vos données vérifiées",
+                "gpo": {
+                    "address_on_file": "Nous enverrons une lettre avec un code de confirmation à l’adresse que vous avez indiquée à l’étape précédente.",
+                    "new_address": "Nous vous enverrons une lettre avec un code de confirmation à l’adresse que vous spécifiez.",
+                    "resend": "Envoyez-moi une autre lettre",
+                    "timeframe": "Les lettres sont envoyées le jour ouvrable suivant par courrier de première classe USPS et prennent généralement de 3 à 7 jours ouvrables."
+                },
+                "mail_sent": "Votre lettre est en route",
+                "otp_delivery_method": {
+                    "phone_number_html_1": "Nous enverrons un code à ",
+                    "phone_number_html_2": " pour vérifier que le numéro de téléphone vous appartient."
+                },
+                "personal_key": "Il s’agit de votre nouvelle clé personnelle. Notez-la et conservez-la dans un endroit sécuritaire. Vous en aurez besoin si vous perdez votre mot de passe.",
+                "phone": {
+                    "alert_html": "<strong>Ce numéro de téléphone doit…</strong>",
+                    "description": "Nous vérifions les dossiers pour vous assurer que vous êtes ce que vous dites et que vous êtes propriétaire de votre compte.",
+                    "final_note_html": "<strong>Si vous configurez un téléphone pour l’authentification à deux facteurs</strong>, il peut s’agir d’un numéro différent.",
+                    "phone_of_record": "numéro de téléphone enregistré",
+                    "rules": [
+                        "être un plan téléphonique associé à votre nom. Il n’est pas nécessaire que vous soyez le titulaire principal du compte.",
+                        "ne pas être un téléphone virtuel (tel que Google Voice ou Skype) ou un numéro à tarif majoré (péage).",
+                        "un numéro américain"
+                    ]
+                },
+                "return_to_profile": "‹ Revenir à votre profil %{app_name}",
+                "review": {
+                    "info_verified_html": "Nous avons trouvé des données qui correspondent à votre %{phone_message}",
+                    "intro": "Vos informations vérifiées"
+                },
+                "select_verification_with_sp": "Afin de vous protéger des fraudes d’identité, vous ne pouvez pas utiliser votre compte au %{sp_name} tant que vous ne l’aurez pas activé en entrant votre code de confirmation.",
+                "select_verification_without_sp": "Afin de protéger votre compte des fraudes liées à l’identité, votre profil ne sera pas activé tant que vous n’aurez pas entré votre code de confirmation.",
+                "sessions": {
+                    "no_pii": "SITE DE TEST - N’utilisez pas de véritables données personnelles (il s’agit d’une démonstration seulement) - SITE DE TEST",
+                    "read_more_encrypt": "En savoir plus sur la façon dont %{app_name} protège vos informations personnelles",
+                    "review_message": "Lorsque vous entrez à nouveau votre mot de passe, %{app_name} crypte vos données pour vous assurer que personne ne peut y accéder."
+                }
+            },
+            "two_factor_authentication": {
+                "two_factor_choice_options": {
+                    "sms": "SMS",
+                    "sms_info": "Obtenez votre code de sécurité par SMS.",
+                    "voice": "Appel téléphonique",
+                    "voice_info": "Obtenez votre code de sécurité par appel téléphonique."
+                },
+                "otp_entry": {
+                    "info_text_1": "",
+                    "info_text_2": ""
+                }
+            }
+        },
+        "forms": {
+            "ssn": {
+                "show": "",
+                "missing": ""
+            }
         }
     }
 }

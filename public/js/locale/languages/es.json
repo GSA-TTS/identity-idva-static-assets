@@ -12,13 +12,16 @@
                 "change_address_label": "Cambiar dirección",
                 "change_ssn": "Cambio",
                 "change_ssn_label": "Cambiar número de Seguridad Social",
+                "change_phone": "Cambio",
+                "change_phone_label": "",
                 "continue": "Continuar",
                 "start_over": "Comenzar de nuevo",
                 "take_or_upload_picture": "<lg-take-photo>Toma una foto</lg-take-photo> o <lg-upload>Sube una foto</lg-upload>",
                 "take_picture": "Tomar una foto",
                 "take_picture_retry": "Retirar la foto",
                 "upload_picture": "Subir foto",
-                "use_phone": "Usa tu telefono"
+                "use_phone": "Usa tu telefono",
+                "submit": ""
             },
             "errors": {
                 "alerts": {
@@ -37,7 +40,8 @@
                     "selfie_failure": "No pudimos hacer coincidir su foto con su documento de identidad. Intente tomarse una nueva foto de usted o de la parte delantera de su documento de identidad.",
                     "sex_check": "No pudimos leer el sexo en su documento de identidad. Intente tomar nuevas fotos.",
                     "visible_color_check": "No pudimos verificar su documento de identidad. Puede que se haya movido cuando tomó la foto, o la foto es demasiado oscura. Intente tomar nuevas fotografías con una luz más brillante.",
-                    "visible_photo_check": "No pudimos verificar la foto de su identificación. Intente tomar nuevas fotografías."
+                    "visible_photo_check": "No pudimos verificar la foto de su identificación. Intente tomar nuevas fotografías.",
+                    "photo_error_generic": "" 
                 },
                 "camera": {
                     "blocked": "Su cámara está bloqueada",
@@ -99,7 +103,8 @@
                 "selected_file": "Archivo seleccionado",
                 "ssn": "Número de seguridad social",
                 "state": "Estado",
-                "zip_code": "Código postal"
+                "zip_code": "Código postal",
+                "phone": ""
             },
             "headings": {
                 "address": "Actualice su dirección postal",
@@ -115,10 +120,11 @@
                 "front": "Parte Delantera",
                 "interstitial": "Estamos procesando sus imágenes",
                 "lets_go": "Cómo funciona la verificación de su identidad",
+                "docv_livenesscheck": "",
                 "photo": "Foto",
                 "review_issues": "Revise sus imágenes e inténtelo de nuevo",
                 "secure_account": "Asegure su cuenta",
-                "selfie": "Tómese una foto",
+                "selfie": "",
                 "ssn": "Ingresa tu número de Seguro Social",
                 "ssn_update": "Actualice su número de Seguro Social",
                 "take_picture": "Toma una foto con un teléfono",
@@ -129,7 +135,11 @@
                 "upload_liveness_enabled": "¿Cómo te gustaría verificar su identidad?",
                 "verify": "Verifica tus datos",
                 "verify_identity": "Verifique su identidad",
-                "welcome": "Empiece con la verificación de su identidad"
+                "welcome": "Empiece con la verificación de su identidad",
+                "pii": "",
+                "otp": "",
+                "otp_security": "",
+                "phone_update": ""
             },
             "info": {
                 "camera_required": "Su teléfono móvil debe tener una cámara y un navegador web.",
@@ -145,11 +155,13 @@
                 "interstitial_thanks": "¡Gracias por su paciencia!",
                 "keep_window_open": "No cierres esta ventana.",
                 "lets_go": "La verificación de la identidad se realiza en dos partes:",
+                "lets_go_3": "", 
                 "link_sent": "Verifique su teléfono y siga las instrucciones para tomar una fotografía de la identificación emitida por su estado.",
                 "link_sent_complete_js": "El siguiente paso se cargará automáticamente una vez que verifiques tu identidad a través de tu teléfono.",
                 "link_sent_complete_nojs": "Cuando termines, haz clic en “Continuar” para completar la verificación de tu identidad.",
                 "no_sp_name": "La agencia a la que está intentando acceder",
                 "privacy_html": "%{app_name} es un sitio web gubernamental seguro que cumple con las normas más estrictas de protección de datos. Solo utilizamos sus datos para verificar su identidad. %{link} sobre nuestras medidas de privacidad y seguridad.",
+                "privacy_html_generic": "",
                 "secure_account": "Vamos a encriptar su cuenta con su contraseña. La encriptación significa que sus datos están protegidos y solo usted podrá acceder o modificar su información.",
                 "ssn": "Necesitamos su número de Seguro Social para validar su nombre, fecha de nacimiento y habla a. Su número de Seguro Social está encriptado. Con su consentimiento, compartimos este información con la agencia gubernamental a la que está intentando acceder para verificar su identidad.",
                 "tag": "Recomendado",
@@ -163,7 +175,16 @@
                 "upload_no_image_storage": "No almacenamos imágenes que cargue. Solo verificamos su identidad.",
                 "verify_identity": "Le preguntaremos sus datos personales para verificar su identidad comparándola con los registros públicos.",
                 "verifying": "Verificando…",
-                "welcome_html": "%{sp_name} necesita asegurarse de que sea usted y no alguien que se haga pasar por usted."
+                "welcome_html": "%{sp_name} necesita asegurarse de que sea usted y no alguien que se haga pasar por usted.",
+                "welcome_html_generic": "",
+                "pii": "",
+                "ssn_eq": "",
+                "docv_livenesscheck_text1": "",
+                "docv_livenesscheck_text2": "",
+                "docv_livenesscheck_text3": "",
+                "consent_pii": "",
+                "otp": "",
+                "consent": ""
             },
             "instructions": {
                 "bullet1": "Su documento de identidad emitido por el estado.",
@@ -184,7 +205,8 @@
                 "test_ssn": "En el entorno de prueba solo los SSN que comienzan con “900-” o “666-” se consideran válidos. No ingrese PII real en este campo.",
                 "text1a": "como un teléfono o una computadora.",
                 "text2": "No es necesario disponer de la credencial.",
-                "text3": "No es necesario que usted sea el titular principal de la cuenta de su plan de teléfono. Si su número de teléfono no funciona, podemos enviarle un código de verificación por correo.",
+                "text3": "No es necesario que usted sea el titular principal de la cuenta de su plan de teléfono.",
+                "text4": "Si su número de teléfono no funciona, podemos enviarle un código de verificación por correo.",
                 "welcome": "Deberá contar con lo siguiente para verificar su identidad:"
             },
             "tips": {
@@ -215,7 +237,8 @@
                 "review_issues_selfie_text1": "¿Está de cara a la cámara?",
                 "review_issues_selfie_text2": "¿Tiene en la foto toda la cabeza y la cara?",
                 "review_issues_selfie_text3": "¿Está la foto contra un fondo liso?",
-                "review_issues_selfie_text4": "¿Su cara está totalmente visible, no está cubierta por un sombrero o por anteojos?"
+                "review_issues_selfie_text4": "¿Su cara está totalmente visible, no está cubierta por un sombrero o por anteojos?",
+                "document_capture_id_worn_html": ""
             }
         },
         "i18n": {
@@ -261,7 +284,8 @@
             "footer_lite": {
                 "gsa": "Administración General de Servicios de EE. UU."
             },
-            "skip_link": "Salte al contenido principal"
+            "skip_link": "Salte al contenido principal",
+            "provided_by": ""
         },
         "links": {
             "account": {
@@ -293,6 +317,106 @@
                 "get_another_code": "Obtener otro código"
             },
             "what_is_totp": "¿Qué es una app de autenticación?"
+        },
+        "titles": {
+            "doc_auth": {
+                "pii": ""
+            }
+        },
+        "idv": {
+            "phone": {
+                "alert": "",
+                "alert_1": "",
+                "alert_2": "",
+                "alert_3": ""
+            },
+            "form": {
+                "address1": "Dirección",
+                "address2": "Dirección (opcional)",
+                "city": "Ciudad",
+                "password": "Contraseña",
+                "ssn_label_html": "Número de Seguro Social",
+                "state": "Estado",
+                "zipcode": "Código postal",
+                "select": ""
+            },
+            "titles": {
+                "activated": "Ya se verificó tu identidad.",
+                "come_back_later": "Vuelve pronto",
+                "mail": {
+                    "resend": "¿Desea otra carta?",
+                    "verify": "¿Desea una carta?"
+                },
+                "otp_delivery_method": "¿Cómo te gustaría recibir el código?",
+                "personal_key": "Clave personal",
+                "review": "Revise y envíe",
+                "session": {
+                    "phone": "Ingresa un número de teléfono para ayudar a verificar tu identidad",
+                    "review": "Vuelve a ingresar tu contraseña de %{app_name} para encriptar tus datos"
+                }
+            },
+            "messages": {
+                "activated_html": "Su identidad ha sido verificada. Si necesita cambiar la información verificada, por favor, %{link}.",
+                "activated_link": "Contáctenos",
+                "clear_and_start_over": "Borrar mi información y empezar de nuevo",
+                "come_back_later": "Una vez llegue tu carta, regístrate en %{app_name} e introduce tu código de confirmación cuando se te solicite.",
+                "come_back_later_no_sp_html": "Ahora puedes volver a tu <strong>cuenta de %{app_name}</strong>.",
+                "come_back_later_sp_html": "Ahora puedes volver a <strong>%{sp}</strong>.",
+                "confirm": "Usted ha encriptado sus datos verificados.",
+                "gpo": {
+                    "address_on_file": "Le enviaremos una carta con un código de confirmación a la dirección que nos facilitó en el paso anterior.",
+                    "new_address": "Le enviaremos una carta con un código de confirmación a la dirección que especifique.",
+                    "resend": "Envíeme otra carta",
+                    "timeframe": "Las correspondencias se envían al día siguiente por correo de primera clase de USPS y por lo general tardan entre 3 y 7 días laborables."
+                },
+                "mail_sent": "Su carta está en camino",
+                "otp_delivery_method": {
+                    "phone_number_html_1": "Enviaremos un código a ",
+                    "phone_number_html_2": " para verificar que el número de teléfono le pertenece."
+                },
+                "personal_key": "Esta es su nueva clave personal. Escríbala y guárdela en un lugar seguro. La necesitará si pierde su contraseña.",
+                "phone": {
+                    "alert_html": "<strong>Este número de teléfono debe…</strong>",
+                    "description": "Verificamos los registros para asegurarnos de que eres quien eres, y de que eres el propietario de tu cuenta.",
+                    "final_note_html": "<strong>Si configura un teléfono para la autenticación de dos factores</strong>, este puede ser un número diferente.",
+                    "phone_of_record": "Teléfono del registro",
+                    "rules": [
+                        "ser un plan telefónico que esté asociado a su nombre. En este caso, no es necesario que usted sea el titular principal de la cuenta.",
+                        "no ser un teléfono virtual (como Google Voice o Skype), como tampoco un número de teléfono de tarificación adicional (pago).",
+                        "un número de EE. UU."
+                    ]
+                },
+                "return_to_profile": "‹ Volver a tu perfil de %{app_name}",
+                "review": {
+                    "info_verified_html": "Encontramos registros que coinciden con su %{phone_message}",
+                    "intro": "Su información verificada"
+                },
+                "select_verification_with_sp": "Para protegerlo de robo de identidad, no puede utilizar su cuenta en %{sp_name} hasta que la active ingresando un código de confirmación.",
+                "select_verification_without_sp": "Para proteger su cuenta de robo de identidad, su perfil no se activará hasta que ingrese un código de confirmación.",
+                "sessions": {
+                    "no_pii": "SITIO DE PRUEBA - No utilice información personal real (sólo para propósitos de demostración) - SITIO DE PRUEBA",
+                    "read_more_encrypt": "Lea más sobre cómo %{app_name} protege su información personal",
+                    "review_message": "Cuando vuelva a ingresar su contraseña, %{app_name} cifrará sus datos para asegurarse de que nadie más pueda acceder a ellos."
+                }
+            },
+            "two_factor_authentication": {
+                "two_factor_choice_options": {
+                    "sms": "Mensaje de texto / SMS",
+                    "sms_info": "Obtenga su código de seguridad a través de mensajes de texto / SMS.",
+                    "voice": "Llamada telefónica",
+                    "voice_info": "Obtenga su código de seguridad a través de una llamada telefónica."
+                },
+                "otp_entry": {
+                    "info_text_1": "",
+                    "info_text_2": ""
+                }
+            }
+        },
+        "forms": {
+            "ssn": {
+                "show": "",
+                "missing": ""
+            }
         }
     }
 }

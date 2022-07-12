@@ -12,13 +12,16 @@
                 "change_address_label": "Change address",
                 "change_ssn": "Change",
                 "change_ssn_label": "Change Social Security Number",
+                "change_phone": "Change",
+                "change_phone_label": "Change Phone Number",
                 "continue": "Continue",
                 "start_over": "Start over",
                 "take_or_upload_picture": "<lg-take-photo>Take photo</lg-take-photo> or <lg-upload>Upload photo</lg-upload>",
                 "take_picture": "Take photo",
                 "take_picture_retry": "Retake photo",
                 "upload_picture": "Upload photo",
-                "use_phone": "Use your phone"
+                "use_phone": "Use your phone",
+                "submit": "Submit"
             },
             "errors": {
                 "alerts": {
@@ -37,7 +40,8 @@
                     "selfie_failure": "We couldn’t match the photo of you to your ID. Try taking a new picture of yourself or the front of your ID.",
                     "sex_check": "We couldn’t read the sex on your ID. Try taking new pictures.",
                     "visible_color_check": "We couldn’t verify your ID. It might have moved when you took the picture, or the picture is too dark. Try taking new pictures in brighter lighting.",
-                    "visible_photo_check": "We couldn’t verify the photo on your ID. Try taking new pictures."
+                    "visible_photo_check": "We couldn’t verify the photo on your ID. Try taking new pictures.",
+                    "photo_error_generic": "Error capturing image"
                 },
                 "camera": {
                     "blocked": "Your camera is blocked",
@@ -99,7 +103,8 @@
                 "selected_file": "Selected file",
                 "ssn": "Social Security Number",
                 "state": "State",
-                "zip_code": "Zip Code"
+                "zip_code": "Zip Code",
+                "phone": "Phone Number"
             },
             "headings": {
                 "address": "Update your mailing address",
@@ -115,10 +120,11 @@
                 "front": "Front",
                 "interstitial": "We are processing your images",
                 "lets_go": "How verifying your identity works",
+                "docv_livenesscheck": "Document verification and liveness check",
                 "photo": "Photo",
                 "review_issues": "Check your images and try again",
                 "secure_account": "Secure your account",
-                "selfie": "Take a photo of yourself",
+                "selfie": "Selfie",
                 "ssn": "Enter your Social Security number",
                 "ssn_update": "Update your Social Security number",
                 "take_picture": "Take a photo with a phone",
@@ -129,7 +135,11 @@
                 "upload_liveness_enabled": "How would you like to verify your identity?",
                 "verify": "Verify your information",
                 "verify_identity": "Verify your identity",
-                "welcome": "Get started verifying your identity"
+                "welcome": "Get started verifying your identity",
+                "pii": "PII validation",
+                "otp": "One-time password check",
+                "otp_security": "",
+                "phone_update": "Update your Phone Number"
             },
             "info": {
                 "camera_required": "Your mobile phone must have a camera and a web browser.",
@@ -145,16 +155,18 @@
                 "interstitial_thanks": "Thanks for your patience!",
                 "keep_window_open": "Do not close this window.",
                 "lets_go": "Identity verification happens in two parts:",
+                "lets_go_3": "Identity verification happens in three parts:",
                 "link_sent": "Please check your phone and follow instructions to take a photo of your state issued ID.",
                 "link_sent_complete_js": "The next step will load automatically once you verify your ID using your phone.",
                 "link_sent_complete_nojs": "When you are done, click Continue here to finish verifying your identity.",
                 "no_sp_name": "The agency that you are trying to access",
                 "privacy_html": "%{app_name} is a secure, government website that adheres to the highest standards in data protection. We only use your data to verify your identity. %{link} about our privacy and security measures.",
+                "privacy_html_generic": "This is a secure, government website that adheres to the highest standards in data protection. We only use your data to verify your identity.",
                 "secure_account": "We’ll encrypt your account with your password. Encryption means your data is protected and only you will be able to access or change your information.",
                 "ssn": "We need your Social Security number to validate your name, date of birth and address.  Your Social Security number is encrypted.  With your consent, we share this information with the government agency you are trying to access to verify your identity.",
                 "tag": "Recommended",
                 "take_picture": "Use the camera on your mobile phone and upload images of your ID.  We only use the images to verify your identity.",
-                "upload": "We’ll collect information about you by reading your state-issued ID.",
+                "upload": "We will collect information about you by reading your state-issued ID.",
                 "upload_computer_link": "Upload from your computer",
                 "upload_from_computer": "Don’t have a phone?",
                 "upload_from_computer_not_allowed": "Sign in to your %{app_name} account on any device that has a camera, like a tablet or computer with a webcam.",
@@ -163,7 +175,16 @@
                 "upload_no_image_storage": "We do not store images you upload. We only verify your identity.",
                 "verify_identity": "We’ll ask for your personal information to verify your identity against public records.",
                 "verifying": "Verifying…",
-                "welcome_html": "%{sp_name} needs to make sure you are you — not someone pretending to be you."
+                "welcome_html": "%{sp_name} needs to make sure you are you — not someone pretending to be you.",
+                "welcome_html_generic": "We need to make sure you are you &ndash; not someone pretending to be you.",
+                "pii": "We need your phone number to verify your identity by checking it against your bill records.",
+                "ssn_eq": "We also need your Social Security Number to validate your name, date of birth, and address. We also need your Social Security Number to validate your name, date of birth, and address. Your Social Security Number is encrypted and with your consent, will be shared with the vendors to verify your identity.",
+                "docv_livenesscheck_text1": "You will be asked to follow the instructions on the screen to take photos of the front and the back of your driver's license.",
+                "docv_livenesscheck_text2": "You will be asked to take a selfie for facial matching.",
+                "docv_livenesscheck_text3": "This process will be repeated <b>FIVE</b> times as we are testing five different vendors.",
+                "consent_pii": "You will be asked to provide your SSN & a Phone number that has your name on the plan for PII validation, <b>ONCE</b>. This will be shared with three different vendors.",
+                "otp": "You will be asked to choose the way to receive a code (text/call) and then input the code on appropriate vendor screens, <b>TWICE</b>.",
+                "consent": "With your consent, we will share your information with the vendors to verify your identity."
             },
             "instructions": {
                 "bullet1": "Your State-issued ID",
@@ -184,7 +205,8 @@
                 "test_ssn": "In the test environment only SSNs that begin with “900-” or “666-” are considered valid. Do not enter real PII in this field.",
                 "text1a": "such as a phone or computer.",
                 "text2": "You will not need the card with you.",
-                "text3": "You do not need to be the primary account holder on your phone plan. If your phone number doesn’t work, we can send you a verification code by mail.",
+                "text3": "You do not need to be the primary account holder on your phone plan.",
+                "text4": "If your phone number doesn’t work, we can send you a verification code by mail.",
                 "welcome": "To verify your identity, you will need:"
             },
             "tips": {
@@ -215,7 +237,8 @@
                 "review_issues_selfie_text1": "Are you facing the camera?",
                 "review_issues_selfie_text2": "Is your entire head and face in the photo?",
                 "review_issues_selfie_text3": "Is the photo against a plain background?",
-                "review_issues_selfie_text4": "Is your face fully visible, not covered by a hat or glasses?"
+                "review_issues_selfie_text4": "Is your face fully visible, not covered by a hat or glasses?",
+                "document_capture_id_worn_html": "<b>Is your ID worn or damaged? </b>Use another state-issued ID if you have one."
             }
         },
         "i18n": {
@@ -261,7 +284,8 @@
             "footer_lite": {
                 "gsa": "US General Services Administration"
             },
-            "skip_link": "Skip to main content"
+            "skip_link": "Skip to main content",
+            "provided_by": "Provided by"
         },
         "links": {
             "account": {
@@ -293,6 +317,112 @@
                 "get_another_code": "Get another code"
             },
             "what_is_totp": "What is an authentication app?"
+        },
+        "titles": {
+            "doc_auth": {
+                "pii": "Enter your personal details"
+            },
+            "idv": {
+                "enter_security_code": "Enter your security code"
+            }
+        },
+        "idv": {
+            "phone": {
+                "alert": "This phone number must....",
+                "alert_1": "be a phone plan associated with your name. You do not need to be the primary account holder.",
+                "alert_2": "not be a virtual phone (such as Google Voice or Skype)",
+                "alert_3": "be a U.S. number"
+            },
+            "form": {
+                "address1": "Address",
+                "address2": "Address (optional)",
+                "city": "City",
+                "password": "Password",
+                "ssn_label_html": "Social Security Number",
+                "state": "State",
+                "zipcode": "ZIP Code",
+                "select": "- Select -"
+            },
+            "titles": {
+                "activated": "Your identity has already been verified",
+                "come_back_later": "Come back soon",
+                "mail": {
+                    "resend": "Want another letter?",
+                    "verify": "Want a letter?"
+                },
+                "otp_delivery_method": "How would you like to receive a code?",
+                "personal_key": "Personal key",
+                "review": "Review and submit",
+                "session": {
+                    "phone": "Enter a phone number with your name on the plan",
+                    "review": "Re-enter your %{app_name} password to protect your data"
+                }
+            },
+            "messages": {
+                "activated_html": "Your identity has been verified. If you need to change your verified information, please %{link}.",
+                "activated_link": "contact us",
+                "clear_and_start_over": "Clear my information and start over",
+                "come_back_later": "Once your letter arrives, sign into %{app_name}, and enter your confirmation code when prompted.",
+                "come_back_later_no_sp_html": "You can return to your <strong>%{app_name} account</strong> for now.",
+                "come_back_later_sp_html": "You can return to <strong>%{sp}</strong> for now.",
+                "confirm": "You have encrypted your verified data",
+                "gpo": {
+                    "address_on_file": "We will mail a letter with a confirmation code to the address that you provided on the previous step.",
+                    "new_address": "We will mail a letter with a confirmation code to the address you specify.",
+                    "resend": "Send me another letter",
+                    "timeframe": "Letters are sent the next business day via USPS First Class Mail and typically take 3 to 7 business days."
+                },
+                "mail_sent": "Your letter is on its way",
+                "otp_delivery_method": {
+                    "phone_number_html_1": "We will send a code to ",
+                    "phone_number_html_2": " to verify that the phone number belongs to you."
+                },
+                "personal_key": "This is your new personal key. Write it down and keep it in a safe place. You will need it if you ever lose your password.",
+                "phone": {
+                    "alert_html": "<strong>This phone number must…</strong>",
+                    "description": "We’ll check this number with phone bill records.  This is to help verify your identity; we won’t use it to call or text you.",
+                    "final_note_html": "<strong>If you set up a phone for two-factor authentication</strong>, this can be a different number.",
+                    "phone_of_record": "Phone of record",
+                    "rules": [
+                        "be a phone plan associated with your name. You do not need to be the primary account holder.",
+                        "not be a virtual phone (such as Google Voice or Skype) or a premium rate (toll) number.",
+                        "be a U.S. number"
+                    ]
+                },
+                "return_to_profile": "‹ Return to your %{app_name} profile",
+                "review": {
+                    "info_verified_html": "We found records matching your %{phone_message}",
+                    "intro": "Your verified information"
+                },
+                "select_verification_with_sp": "To protect you from identity fraud, we will contact you to confirm that this %{sp_name} account is legitimate.",
+                "select_verification_without_sp": "To protect you from identity fraud, we will contact you to confirm that this account is legitimate.",
+                "sessions": {
+                    "no_pii": "TEST SITE - Do not use real personal information (demo purposes only) - TEST SITE",
+                    "read_more_encrypt": "Read more about how %{app_name} protects your personal information",
+                    "review_message": "When you re-enter your password, %{app_name} will protect the information you’ve given us, so that only you can access it."
+                }
+            },
+            "two_factor_authentication": {
+                "two_factor_choice_options": {
+                    "sms": "Text message / SMS",
+                    "sms_info": "Get your security code via text message / SMS.",
+                    "voice": "Phone call",
+                    "voice_info": "Get your security code via phone call."
+                },
+                "otp_entry": {
+                    "info_text_1": "We sent a code to ",
+                    "info_text_2": ". This code will expire in 10 minutes."
+                }
+            }
+        },
+        "forms": {
+            "ssn": {
+                "show": "Show Social Security Number",
+                "missing": "SSN Missing Required Field"
+            },
+            "validation": {
+                "required_checkbox": "Please check this box to continue"
+            }
         }
     }
 }
