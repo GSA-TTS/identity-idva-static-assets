@@ -8,17 +8,19 @@ const defaultLocale = lang.EN;
 let locale;
 var translations = {};
 
-$("#i18n-mobile-toggle").click(function () { $("#i18n-mobile-dropdown").toggleClass("no-display") })
-$("#i18n-desktop-toggle").click(function () { $("#i18n-desktop-dropdown").toggleClass("no-display") })
+function initTranslationSettings() {
+    $("#i18n-mobile-toggle").click(function () { 
+        $("#i18n-mobile-dropdown").toggleClass("no-display");
+    })
+    $("#i18n-desktop-toggle").click(function () { 
+        $("#i18n-desktop-dropdown").toggleClass("no-display");
+    })
 
-$(".i18n-en").click(function () { setLocale(lang.EN) })
-$(".i18n-es").click(function () { setLocale(lang.ES) })
-$(".i18n-fr").click(function () { setLocale(lang.FR) })
-
-// When the page content is ready...
-document.addEventListener("DOMContentLoaded", () => {
+    $(".i18n-en").click(function () { setLocale(lang.EN) })
+    $(".i18n-es").click(function () { setLocale(lang.ES) })
+    $(".i18n-fr").click(function () { setLocale(lang.FR) })
     setLocale(defaultLocale);
-});
+}
 
 async function setLocale(newLocale) {
     if (newLocale === locale) return;
