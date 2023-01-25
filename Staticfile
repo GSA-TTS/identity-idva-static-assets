@@ -1,2 +1,5 @@
 root: public
 location_include: includes/*.conf
+http_strict_transport_security: true
+http_strict_transport_security_include_subdomains: true
+http_strict_transport_security_preload: true
