@@ -1,0 +1,555 @@
+div, h1, h2, h3, h4, h5, h6 {
+    font-family: "Public Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  }
+  
+  ol ul {list-style-type: disc;}
+  
+  .required-field::before {
+    content: "* ";
+    color: red;
+  }
+  
+  .usa-radio__label {
+    margin-top: .3rem !important;
+  }
+  
+  .usa-step-indicator__heading {
+    line-height: 1.1 !important;
+  }
+  
+  html {
+    background-color: #112e51 !important;
+  }
+  
+  .site, body {
+    background-color: #ebf3fa !important;
+  }
+  
+  .bg-primary-lighter,
+  .hover\:bg-primary-lighter:hover {
+      background-color: #ebf3fa
+  }
+  
+  .site {
+    height: 100vh !important;
+  }
+  
+  .usa-combo-box__input {
+      border-width: 1px !important;
+      border-color: #cedced !important;
+      border-style: solid !important;
+      font-weight: bold !important;
+      background-color: #f2f9ff !important;
+      border-radius: 0.25rem !important;
+  }
+  
+  .usa-combo-box__toggle-list {
+      background-image: url(https://identity-idva-static-assets-prod.app.cloud.gov/img/angle-arrow-down-gray-90.svg) !important;
+      height: auto !important;
+      background-size: auto 0.5rem !important;
+  }
+  
+  /*.site, body, html {
+    height: 100% !important;
+  }*/
+  
+  .no-display {
+    display: none;
+  }
+  
+  .i18n-mobile-toggle.focused .caret, .i18n-desktop-toggle.focused .caret {
+    transform: rotateX(180deg) translateY(-1px);
+  }
+  .i18n-mobile-dropdown {
+    background-color: color('primary-lighter');
+    bottom: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+  .i18n-desktop-toggle {
+    position: relative;
+  }
+  .i18n-desktop-toggle.focused {
+    background-color: color('primary');
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .i18n-desktop-dropdown {
+    bottom: 100%;
+    left: -1px;
+    position: absolute;
+    width: 194px;
+  }
+  .language-desktop-button {
+    background-color: transparent;
+  }
+  .language-mobile-button {
+    background-color: #ebf3fa;
+    border: 0;
+  }
+  
+  .back {
+    background: none!important;
+    border: none;
+    color: #069;
+    padding: 0!important;
+    text-decoration: underline;
+  }
+  
+  
+  .usa-alert {
+    background-size: 1rem !important;
+  }
+  
+  .usa-link {
+    color: #0071bb !important;
+  }
+  
+  /*.usa-step-indicator__segment-label {
+    font-size: 0.85rem !important;
+  }
+  
+  .usa-step-indicator--counters-sm .usa-step-indicator__segment--current:before {
+    box-shadow: 0 0 0 0.25rem white !important;
+  }
+  
+  .usa-step-indicator--counters-sm .usa-step-indicator__segment--complete:before {
+    box-shadow: 0 0 0 0.25rem white !important;
+  }
+  
+  usa-step-indicator__segment test {
+    box-shadow: inset 0 0 0 0.25rem red, 0 0 0 0.25rem white !important;
+  }
+  */
+  .navigate-next {
+      -webkit-mask: url("https://identity-idva-static-assets-dev.app.cloud.gov/img/usa-icons/navigate_next.svg") no-repeat center/2ex 2ex;
+      background-color: #0071bb;
+      height: 2ex;
+      width: 2ex;
+      float: right;
+      margin-top: 5px;
+  }
+  
+  .dotted-border {
+    border: 3px dashed #0071BB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 184px;
+  }
+  
+  .flex-column {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .image-wrapper-error {
+    color: #E8181F;
+      font-size: 18px;
+    font-weight: bold;
+    display: none;
+  }
+  
+  .file-upload-header {
+    font-size: 26px;
+    color: #0071BB;
+    text-transform: uppercase;
+  }
+  
+  .take-photo-button {
+    width: auto !important;
+  }
+  
+  .blurline {
+    border:none;
+       width: 100%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 1px lightgrey;
+      box-shadow:0 5px 5px -5px lightgrey;
+    margin: -50px auto 10px;
+  }
+  
+  .usa-radio__label__otp {
+    width: 100% !important;
+    border: 1px solid #CEDCED !important;
+  }
+  
+  /*.usa-step-indicator__segment:after {
+    left: 3rem !important;
+    right: -3rem !important;
+  }
+  
+  .usa-step-indicator--counters .usa-step-indicator__segment:before, .usa-step-indicator--counters-sm .usa-step-indicator__segment:before {
+    left: 2.5rem !important;
+  }
+  
+  .usa-step-indicator__segment:before {
+    border: none !important;
+    background-color: #dedede !important;
+  }
+  
+  .usa-step-indicator--counters-sm .usa-step-indicator__segment--complete:before,
+  .usa-step-indicator--counters .usa-step-indicator__segment--complete:before {
+    box-shadow: none;
+    background-color: #18852E !important;
+    border: 5px solid #18852E !important;
+    background-image: url("https://identity-idva-static-assets-dev.app.cloud.gov/lg-images/login-checkbox.png");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    text-indent: -9999px;
+  }
+  
+  
+  
+  .usa-step-indicator__segment--complete:after {
+    background-color: #18852E !important;
+  }
+  .usa-step-indicator__segment--complete .usa-step-indicator__segment-label {
+    color: #18852E !important;
+    font-weight: 400 !important;
+  }
+  
+  .usa-step-indicator__segment-label {
+    text-align: center !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }*/
+  
+  /* doing */
+  /*.usa-step-indicator--counters-sm .usa-step-indicator__segment--current:before,
+  .usa-step-indicator--counters .usa-step-indicator__segment--current:before {
+    box-shadow: none;
+    background-color: white !important;
+    border: 5px solid #18852E !important;
+    text-indent: -9999px;
+  }
+  .usa-step-indicator__segment--current:after {
+    background-color: #dedede !important;
+  }
+  .usa-step-indicator__segment--current .usa-step-indicator__segment-label {
+    color: #18852E !important;
+    font-weight: 600 !important;
+  }*/
+  /* todo */
+  /*.usa-step-indicator--counters-sm .usa-step-indicator__segment:before,
+  .usa-step-indicator--counters .usa-step-indicator__segment:before {
+    box-shadow: none;
+    border: 5px solid #878f8a;
+    background-color: #878f8a;
+    text-indent: -9999px;
+  }
+  .notcomplete {
+    background-color: #878f8a !important;
+    height: 0.5rem;
+  }
+  
+  .usa-step-indicator__segment {
+    width: 20% !important;
+    max-width: none !important;
+  }
+  
+  .usa-step-indicator__segment .usa-step-indicator__segment-label {
+    color: #878f8a;
+    font-weight: 400;
+  }*/
+  
+  #content-desktop {
+    display: none;
+  }
+  
+  @media screen and (max-width: 640px) {
+    #content-desktop {
+        display: block;
+    }
+  }
+  
+  /*.step-indicator {
+    font-size: 0.75em;
+  }*/
+  
+  .nav-nonbranded {
+    height: auto !important;
+  }
+  
+  input[type="radio"] {
+    width: 24px;
+    margin-right: 2px;
+  }
+  input[type="radio"]:focus {
+     outline: none;
+     box-shadow: none;
+  }
+  .right {
+    text-align: right;
+  }
+  .left {
+    text-align: left;
+  }
+  
+  .pii-left {
+    float: left;
+    width: 80%;
+  }
+  
+  .change-right {
+    float: right;
+  }
+  
+  .toggleSSNbox {
+    background: #FFFFFF;
+    border: 1px solid #CEDCED;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display:inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 0.5em;
+  }
+  
+  input[type=text], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=time], input[type=url], input[type=week] {
+      padding: 0.5em;
+  }
+  
+  .usa-card{
+    width:100%;
+  }
+  
+  .radio-header{
+    color: #0071BB;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .usa-checkbox__label-description, .usa-radio__label-description {
+    text-indent: 0 !important;
+  
+  }
+  
+  hr.help-line{
+    border-top: 4px solid red;
+    margin: 0;
+    width: 75px;
+    border-bottom-width: 0;
+  }
+  
+  /* here */
+  #num{
+      position:relative;
+  }
+  
+  #number{
+      position: absolute;
+  }
+  
+  #ssn{
+      position: absolute;
+      top:0;
+      color: transparent !important;
+      background: transparent;
+      border:none;
+  }
+  .err {
+    text-align: right;
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
+    /* Styles */
+    .sm-bg-navy {
+      background-color: #ebf3f9;
+    }
+  }
+  
+  /* Smartphones (landscape) ----------- */
+  @media only screen and (min-width: 321px) {
+    /* Styles */
+  }
+  
+  /* Smartphones (portrait) ----------- */
+  @media only screen and (max-width: 320px) {
+    /* Styles */
+  }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Styles */
+  }
+  
+  /* iPads (landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* Styles */
+  }
+  
+  /* iPads (portrait) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Styles */
+  }
+  
+  /* Under 640 px (uswds diff between mobile and non mobile) ----------- */
+  @media only screen and (max-width: 639px) {
+  
+    .usa-radio__label__otp {
+      padding-top: 1.5rem !important;
+      padding-bottom: 1.5rem !important;
+    }
+  
+    .wide-button{
+      width: 100% !important;
+    }
+  
+    .wide-text-input {
+      max-width: 100% !important;
+    }
+  
+    .file-upload {
+      width: 100% !important;
+    }
+  
+    .no-mobile {
+      display: none;
+    }
+  
+    /*.usa-step-indicator--counters-sm .usa-step-indicator__segment:before {
+      height: 1.5rem !important;
+      border-radius: 99rem !important;
+      width: 1.5rem !important;
+      font-size: 0.93rem !important;
+      padding: calc(0.25rem + 1px) !important;
+      top: calc((1.5rem - 0.5rem) / -2) !important;
+    }
+    
+    .usa-step-indicator--counters .usa-step-indicator__segment:before, .usa-step-indicator--counters-sm .usa-step-indicator__segment:before {
+      font-feature-settings: "tnum" 1, "kern" 1 !important;
+      box-shadow: inset 0 0 0 0.25rem #dedede, 0 0 0 0.25rem white;
+      color: #5c5c5c !important;
+      content: counter(usa-step-indicator) !important;
+      display: block !important;
+      font-weight: bold !important;
+      line-height: 0.9 !important;
+      position: absolute !important;
+      text-align: center !important;
+      z-index: 100 !important;
+    }
+  
+    .usa-step-indicator__segment-label {
+      display: block !important;
+    }
+  
+    .usa-step-indicator--counters-sm .usa-step-indicator__segment-label {
+      margin-top: calc(((1.5rem + 0.5rem) / 2) + 0.5rem) !important;
+    }
+  
+    .usa-step-indicator.first-step {
+      margin-left: 0rem !important;
+      margin-right: 0rem !important;
+    }
+  
+    .usa-step-indicator {
+      margin-left: -33.333333% !important;
+    }
+  
+    .usa-step-indicator--counters .usa-step-indicator__segment:before, .usa-step-indicator--counters-sm .usa-step-indicator__segment:before {
+      left: calc(50% - 0.75rem) !important;
+    }
+  
+    .usa-step-indicator__segment:after {
+      left: 50%!important;
+      right: -50% !important;
+    }
+  
+    .progress-blur-right.usa-step-indicator__segment:after {
+      width: 50%;
+      background: linear-gradient(
+    270deg
+    , rgba(255, 255, 255, 0) -10%, #dedede 100%) !important;
+    }
+  
+    .progress-blur-left.usa-step-indicator__segment:after {
+      background: linear-gradient(
+        90deg
+        , rgba(255, 255, 255, 0) 40%, #18852E  200%) !important;
+    }
+  
+    .progress-blur-left.usa-step-indicator__segment:before {
+      display: none !important;
+    }
+  
+    .progress-end.usa-step-indicator__segment:after {
+      display: none;
+    }*/
+  }
+  
+  /* Over 640 px (uswds diff between mobile and non mobile) ----------- */
+  @media only screen and (min-width: 640px) {
+  
+    .tablet:display-none {
+      display: none;
+    }
+  
+    .dotted-border{
+      width: 80% !important;
+    }
+  
+    .input-width{
+      width:65%;
+    }
+  
+    .file-upload {
+      width: 75% !important;
+    }
+  
+    hr.blurline{
+      display:none;
+    }
+  
+    .usa-card:not(.usa-card--flag) .usa-card__container>:only-child {
+      padding: 0.3rem;
+    }
+  
+    .no-desktop {
+      display: none;
+    }
+  
+    /*.usa-step-indicator {
+      margin-left: -2.5rem !important;
+      margin-right: -3rem !important;
+    }*/
+  }
+  
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width: 1224px) {
+    /* Styles */
+  }
+  
+  /* Large screens ----------- */
+  @media only screen and (min-width: 1824px) {
+    /* Styles */
+  }
+  
+  /* iPhone 4 - 5s ----------- */
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+    /* Styles */
+  }
+  
+  /* iPhone 6 ----------- */
+  @media only screen and (max-device-width: 667px),
+    only screen and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+  }
+  
+  /* iPhone 6+ ----------- */
+  @media only screen and (min-device-width: 414px),
+    only screen and (-webkit-device-pixel-ratio: 3) {
+    /*** You've spent way too much on a phone ***/
+  }
+  
+  /* Samsung Galaxy S7 Edge ----------- */
+  @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-resolution: 192dpi) and (max-width: 640px) {
+    /* Styles */
+  }
+  
