@@ -30,10 +30,11 @@ jobs:
           cf-org: ${{ secrets.CF_ORG }}
           space-suffix: "-closed"
 
-      - name: Format JavaScript
+      - name: Format JavaScript/CSS
         env:
           ENVIRONMENT_NAME: ${{ steps.cf-setup.outputs.target-environment }}
         run: | 
+          sudo apt-get install yui-compressor
           envsubst '$ENVIRONMENT_NAME' < template/lang-template.js > public/js/locale/lang.js
           yui-compressor public/css/idva.css > public/css/idva.min.css
 
