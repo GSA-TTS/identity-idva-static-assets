@@ -18,5 +18,4 @@ function initpbar(current) {
         $("#step-count").text(current)
         $("#step-name").html(stepName)
     });
-
 }
