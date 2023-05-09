@@ -36,6 +36,8 @@ jobs:
         run: | 
           sudo apt-get install yui-compressor
           envsubst '$ENVIRONMENT_NAME' < template/lang-template.js > public/js/locale/lang.js
+          envsubst '$ENVIRONMENT_NAME' < template/footer.html > public/html/footer.html
+          envsubst '$ENVIRONMENT_NAME' < template/header.html > public/html/header.html
           yui-compressor public/css/idva.css > public/css/idva.min.css
 
       - name: Deploy application
