@@ -3033,7 +3033,7 @@ img {
 }
 
 .usa-checkbox__input:checked + .usa-checkbox__label::before, .usa-checkbox__input:checked:disabled + .usa-checkbox__label::before {
-    background-image: url("/img/correct8-e2e0bf3b64bc9239c770fba3feebd2b4f5915c81e56be835992daab7cd1fdbde.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/correct8.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 0.75rem auto
@@ -3043,7 +3043,7 @@ img {
     .usa-checkbox__input:checked + .usa-checkbox__label::before, .usa-checkbox__input:checked:disabled + .usa-checkbox__label::before {
         background-image: none;
         background-color: white;
-        content: url("/img/checkbox-check-print-22feb9f0687dab022f75f47d94df248fa8b492754ebc8d67f8a9d20e2cbf13a4.svg");
+        content: url("/img/checkbox-check-print.svg");
         text-indent: 0
     }
 }
@@ -3102,7 +3102,7 @@ img {
 }
 
 .usa-select {
-    background-image: url("/img/arrow-both-a8fd329a6bf944dafa96ed7061ef3d31d1473920bcdfe1ea7907ddea6559e16f.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/arrow-both.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -3287,7 +3287,7 @@ img {
 }
 
 .usa-file-input__preview-image.is-loading {
-    background-image: url("/img/loader-53daf210bb0b335f24ee3a45726fc07868a9ae6e027a0d3d79d9d5c263ab22e7.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/loader.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-position: center center;
     background-repeat: no-repeat;
@@ -3301,27 +3301,27 @@ img {
 }
 
 .usa-file-input__preview-image--pdf {
-    background-image: url("/img/file-pdf-718bc2eda4b34ccf831ef507f9f9528b283b98339065439647d993e416c75c7f.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/file-pdf.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
 .usa-file-input__preview-image--generic {
-    background-image: url("/img/file-e63c668b9e5c23d0cd5fddea21a316f17648287150a0f0c2dcfb7a0ec0da9a88.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/file.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
 .usa-file-input__preview-image--word {
-    background-image: url("/img/file-word-d3f6dee4307ce74f187900ba2d5cd8fefebcc29d57a80e2d42426e6d2119e8fe.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/file-word.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
 .usa-file-input__preview-image--excel {
-    background-image: url("/img/file-excel-2e9a2b84224e22923e7ba2e56b11490462cef83440d1f5c454bdfef2f05bd07d.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/file-excel.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
 .usa-file-input__preview-image--video {
-    background-image: url("/img/file-video-a88fed502232948df84e2605503aa0d07fe4a05763f0c68cdbabda424850c817.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/file-video.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
@@ -3515,14 +3515,14 @@ button.usa-combo-box__toggle-list:focus, button.usa-combo-box__clear-input:focus
 }
 
 .usa-combo-box__clear-input {
-    background-image: url("/img/close-gray-60-11c39bd429c60abd1b31d9d9ad688cc02227e5e93e6658e65680e7916127dd3b.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/close-gray-60.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     display: none;
     right: calc(2.5em + 3px)
 }
 
 .usa-combo-box__toggle-list {
-    background-image: url("/img/arrow-down-gray-60-06dd8283e64ddb936450af505c7824546bc1af35fc732a0f4abf25f46b666f38.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/arrow-down-gray-60.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     right: 1px
 }
@@ -3630,7 +3630,7 @@ button.usa-combo-box__toggle-list:focus, button.usa-combo-box__clear-input:focus
 }
 
 .usa-date-picker__button {
-    background-image: url("/img/calendar-alt-solid-92b01cfdcd02e085992b0c8a39b77424d88739f538f5451544f2cab3d5ee857e.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/calendar-alt-solid.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     align-self: stretch;
     background-color: transparent;
@@ -3694,22 +3694,22 @@ button.usa-combo-box__toggle-list:focus, button.usa-combo-box__clear-input:focus
 }
 
 .usa-date-picker__calendar__previous-year:not([disabled]) {
-    background-image: url("/img/angle-double-left-solid-5eec8543d8166548b080b4159cd9dfa9e12911d249d29246fa0f933962cd08af.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/angle-double-left-solid.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
 .usa-date-picker__calendar__previous-month:not([disabled]) {
-    background-image: url("/img/angle-left-solid-e23ecea7c8839dffcce46deeae07230e0882237f8a4b0f62d957d45ba8d0bb6c.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/angle-left-solid.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
 .usa-date-picker__calendar__next-year:not([disabled]) {
-    background-image: url("/img/angle-double-right-solid-dd0ae4bf3406a084aa189f16c8d6100ca18ff5f6a9e374f484629bf969807432.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/angle-double-right-solid.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
 .usa-date-picker__calendar__next-month:not([disabled]) {
-    background-image: url("/img/angle-right-solid-3284bf735c1e63747a9705ea0fc7ba5fc7ca662d97029ff63c14f1d9364d88d7.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/angle-right-solid.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
@@ -3849,12 +3849,12 @@ button.usa-combo-box__toggle-list:focus, button.usa-combo-box__clear-input:focus
 }
 
 .usa-date-picker__calendar__previous-year-chunk:not([disabled]) {
-    background-image: url("/img/angle-left-solid-e23ecea7c8839dffcce46deeae07230e0882237f8a4b0f62d957d45ba8d0bb6c.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/angle-left-solid.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
 .usa-date-picker__calendar__next-year-chunk:not([disabled]) {
-    background-image: url("/img/angle-right-solid-3284bf735c1e63747a9705ea0fc7ba5fc7ca662d97029ff63c14f1d9364d88d7.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/angle-right-solid.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
@@ -5866,7 +5866,7 @@ button.usa-combo-box__toggle-list:focus, button.usa-combo-box__clear-input:focus
 }
 
 .usa-link--external::after {
-    background-image: url("/img/external-link-030a08e6f2b781af6338485bcab0e2304ae761f67e4b5fc3888cee664b23b391.svg");
+    background-image: url("/img/external-link.svg");
     background-position: 50% 60%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -5877,12 +5877,12 @@ button.usa-combo-box__toggle-list:focus, button.usa-combo-box__clear-input:focus
 }
 
 .usa-link--external:hover::after {
-    background-image: url("/img/external-link-hover-f36071e9c3851b3f71ca88e7c445794b50602761a9e7f1ea6eccc38866f4c5ca.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/external-link-hover.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
 .usa-link--external.usa-link--alt::after {
-    background-image: url("/img/external-link-alt-3788100689755d4b80964a7f671a833a4dd93cc23c7e1f111300ee760b49ffff.svg");
+    background-image: url("/img/external-link-alt.svg");
     background-position: 50% 60%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -5893,7 +5893,7 @@ button.usa-combo-box__toggle-list:focus, button.usa-combo-box__clear-input:focus
 }
 
 .usa-link--external.usa-link--alt:hover::after {
-    background-image: url("/img/external-link-alt-hover-7686575e35a1329dcf4fa2ef3bfd1ded866fac20373f88962ef18073cfabfc22.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/external-link-alt-hover.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
@@ -9688,7 +9688,7 @@ button.usa-combo-box__toggle-list:focus, button.usa-combo-box__clear-input:focus
 }
 
 .usa-search [type="submit"] {
-    background-image: url("/img/search-7db04a241d7c4d494b921ab0ab7cc8f2a2bedeef361a30ef5cf54d80a59af1a1.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/search.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 1rem;
@@ -9728,7 +9728,7 @@ button.usa-combo-box__toggle-list:focus, button.usa-combo-box__clear-input:focus
 
 @media all and (min-width: 480px) {
     .usa-search--small [type="submit"], .usa-search--small .usa-search__submit {
-        background-image: url("/img/search-7db04a241d7c4d494b921ab0ab7cc8f2a2bedeef361a30ef5cf54d80a59af1a1.svg"), linear-gradient(transparent, transparent);
+        background-image: url("/img/search.svg"), linear-gradient(transparent, transparent);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 1rem;
@@ -10128,7 +10128,7 @@ input[type="search"] {
 }
 
 .usa-accordion__close-button:before {
-    background-image: url("/img/angle-arrow-up-25856f9a9bad911ef05a4d0e1f4ab2a993974ca3e825d567630c2fd6a304d407.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/angle-arrow-up.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 0.75rem;
@@ -10918,7 +10918,7 @@ body {
 }
 
 .usa-input.usa-input--error:not(.usa-input--inline), .usa-textarea.usa-input--error:not(.usa-input--inline) {
-    background-image: url("/img/alerts/error-57a1d838d5a3b503491063cf7a3182d7c6c4fcfc22053923225a6ae0532fefec.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/alerts/error.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     padding-right: 2.5rem
 }
@@ -10933,7 +10933,7 @@ body {
     border-width: 1px;
     border-color: #cedced;
     border-style: solid;
-    background-image: url("/img/arrow-down-filled-802d5c59ca8af64a6cc182745d849f2b590ae34f982ee70e03bdfa7b4f4f6776.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/arrow-down-filled.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     font-weight: bold;
     border-radius: 0.25rem
@@ -11099,7 +11099,7 @@ body {
 }
 
 .usa-error-message.usa-error-message--with-icon {
-    background-image: url("/img/alerts/error-57a1d838d5a3b503491063cf7a3182d7c6c4fcfc22053923225a6ae0532fefec.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/alerts/error.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-position: 0 center;
     background-size: 1.5rem;
@@ -11320,7 +11320,7 @@ body {
 
 @media all and (min-width: 1024px) {
     .usa-nav__primary button[aria-expanded=true] {
-        background-image: url("/img/minus-alt-3cde981901656f4c2ea5c834905851f2879d2886e8c68ad52160ad87580a6e52.svg"), linear-gradient(transparent, transparent);
+        background-image: url("/img/minus-alt.svg"), linear-gradient(transparent, transparent);
         background-repeat: no-repeat;
         background-position: right 0 center;
         background-size: 0.75rem
@@ -11329,7 +11329,7 @@ body {
 
 @media all and (min-width: 1024px) and (min-width: 1024px) {
     .usa-nav__primary button[aria-expanded=true] {
-        background-image: url("/img/angle-arrow-up-primary-9370d0d1155459a2543f082efb0441ad48243eedc25afa09beb26b3dce7b3a1c.svg"), linear-gradient(transparent, transparent);
+        background-image: url("/img/angle-arrow-up-primary.svg"), linear-gradient(transparent, transparent);
         background-repeat: no-repeat;
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
@@ -11924,7 +11924,7 @@ li + li:last-child .block-link:only-child {
 }
 
 .usa-link--external::after {
-    background-image: url("/img/external-link-030a08e6f2b781af6338485bcab0e2304ae761f67e4b5fc3888cee664b23b391.svg");
+    background-image: url("/img/external-link.svg");
     background-position: 50% 60%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -11935,12 +11935,12 @@ li + li:last-child .block-link:only-child {
 }
 
 .usa-link--external:hover::after {
-    background-image: url("/img/external-link-030a08e6f2b781af6338485bcab0e2304ae761f67e4b5fc3888cee664b23b391.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/external-link.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
 .usa-link--external.usa-link--alt::after {
-    background-image: url("/img/external-link-alt-3788100689755d4b80964a7f671a833a4dd93cc23c7e1f111300ee760b49ffff.svg");
+    background-image: url("/img/external-link-alt.svg");
     background-position: 50% 60%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -11951,7 +11951,7 @@ li + li:last-child .block-link:only-child {
 }
 
 .usa-link--external.usa-link--alt:hover::after {
-    background-image: url("/img/external-link-alt-3788100689755d4b80964a7f671a833a4dd93cc23c7e1f111300ee760b49ffff.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/external-link-alt.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat
 }
 
@@ -12095,7 +12095,7 @@ textarea {
 }
 
 .has-error input {
-    background-image: url("/assets/alert/error-a44917a5a3c6fb83ac348be1a44da74c40ae6af663a8f8bf5fc692d53c22b230.svg");
+    background-image: url("/img/lg-img/alerts/error.svg");
     background-position: center right 1rem;
     background-repeat: no-repeat;
     background-size: 1rem 1rem;
@@ -12495,7 +12495,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .modal-timeout::before {
-    background-image: url("/assets/clock-37c032ca426fc439c418c9aa70cec9a68cc8514a68393a34896ffec3f39971d5.svg")
+    background-image: url("/img/material-icons/lock_clock.svg")
 }
 
 .modal-timeout hr {
@@ -12503,7 +12503,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .modal-warning::before {
-    background-image: url("/assets/alert/warning-lg-342a0638fca0d7bddd7f015cf3f3817843de82e81c027739b9350a8157d7126a.svg")
+    background-image: url("/img/material-icons/warning.svg")
 }
 
 .modal-warning hr {
@@ -12547,7 +12547,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .sidenav-mobile .usa-nav__close {
-    background-image: url("/img/close-blue-60v-alt-e2b5b8af7516593ebe33bd87e9dcccb270a80ecab9b16b51a59654e4f0118da1.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/close-blue-60v-alt.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     height: 3rem;
     width: 3rem;
@@ -13065,11 +13065,11 @@ h1.page-heading[tabindex="-1"]:focus:focus-visible {
 
 .step-indicator__step--complete:not(.step-indicator__step--pending)::before {
     background-color: white;
-    background-image: url("/assets/alert/success-1c52a960a6ac26ff5c762489ede958455ba05b038ed750a21bfc4d89e0ee99dc.svg")
+    background-image: url("/img/lg-img/alerts/success.svg")
 }
 
 .step-indicator__step--pending::before {
-    background-image: url("/assets/alert/pending-f270baa38922fc9d4f7efc070fd701cfdacee5b6aa9e579c62ecaf357a92f74b.svg")
+    background-image: url("/img/material-icons/pending.svg")
 }
 
 .step-indicator__step:not(:last-child)::after {
