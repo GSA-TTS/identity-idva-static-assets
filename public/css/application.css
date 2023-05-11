@@ -6218,7 +6218,7 @@ button.usa-combo-box__toggle-list:focus, button.usa-combo-box__clear-input:focus
 }
 
 .usa-alert--success {
-    background-image: url("/img/alerts/success.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/lg-img/alerts/success.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-color: #ebfcef
 }
