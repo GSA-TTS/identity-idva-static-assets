@@ -6,6 +6,8 @@ name: Deploy
 
 on:
   push:
+    branches:
+      - pre
     tags:
       - '*'
     paths-ignore:
