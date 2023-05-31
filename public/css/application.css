@@ -11099,11 +11099,11 @@ body {
 }
 
 .usa-error-message.usa-error-message--with-icon {
-    background-image: url("/img/alerts/error.svg"), linear-gradient(transparent, transparent);
+    background-image: url("/img/lg-img/alerts/error.svg"), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-position: 0 center;
     background-size: 1.5rem;
-    padding-left: 1.5rem
+    padding-left: 2rem
 }
 
 .usa-header--extended .usa-logo, .usa-header--basic .usa-logo {
